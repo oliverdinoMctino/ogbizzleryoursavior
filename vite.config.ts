@@ -11,6 +11,7 @@ import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 const isDev = process.env.NODE_ENV === 'development';
 // https://vite.dev/config/
 export default defineConfig({
+  base: /ogbizzleryoursavior/
   plugins: [
     tanstackRouter({
       target: 'react',
